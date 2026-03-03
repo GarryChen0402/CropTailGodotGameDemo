@@ -45,4 +45,4 @@ func transition_to(node_state_name : String):
 	new_node_state._on_enter()
 	current_node_state = new_node_state
 	current_node_state_name = current_node_state.name.to_lower()
-	print("Current State: ", current_node_state_name)
+	#print("Current State: ", current_node_state_name)
